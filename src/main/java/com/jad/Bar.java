@@ -1,4 +1,11 @@
 package com.jad;
 
-public class Bar {
+public class Bar implements IBar {
+    public Bar() {
+    }
+
+    @Override
+    public void doSomethingLikeABar() {
+
+    }
 }
