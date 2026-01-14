@@ -5,7 +5,7 @@ public class Qux implements IQux {
     }
 
     @Override
-    public void doSomeThingLikeAQux() {
+    public void doSomethingLikeAQux() {
 
     }
 }
