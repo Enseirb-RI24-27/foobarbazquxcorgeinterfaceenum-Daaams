@@ -12,6 +12,7 @@ public class Foo implements IFoo {
 
     public Foo(IBaz baz) {
         this.baz = baz;
+        this.qux = new Qux();
     }
 
     public IBaz getBaz() {
