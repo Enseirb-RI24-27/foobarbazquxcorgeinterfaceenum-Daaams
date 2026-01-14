@@ -1,5 +1,6 @@
 package com.jad;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Foo implements IFoo {
@@ -13,6 +14,7 @@ public class Foo implements IFoo {
     public Foo(IBaz baz) {
         this.baz = baz;
         this.qux = new Qux();
+        this.bars = new ArrayList<>();
     }
 
     public IBaz getBaz() {
