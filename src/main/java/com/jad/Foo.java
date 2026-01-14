@@ -33,4 +33,8 @@ public class Foo implements IFoo {
     public void setCorge(ICorge corge) {
         this.corge = corge;
     }
+
+    public void addBar(IBar bar) {
+        this.bars.add(bar);
+    }
 }
